@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&display=swap');
+:root {
+    --purple: #24053E;
+    --eucaplyptus: #44FFA1;
+    --gray: #584D62;
+    --ghost-white: #FCF8FF;
+    --Fraunces: font-family: 'Fraunces', serif;;
+    --Manrope: font-family: 'Manrope', sans-serif;;
+}
+body{
+    /* width: 1455px; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-image:url('./assets/images/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    width: 100%;
+    height: 45.625rem;
+    z-index: 2;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10.33rem;
+    padding: 3.61rem 10.33rem 0 10.33rem;
+    padding-top: 3.61rem;
+    align-items: center;
+}
+.logo{
+    width: 5.98513rem;
+    height: 1.538rem;
+}
+.header_btn{
+    font-family: 'Fraunces', serif;
+    font-size: 1.125rem;
+    border: none;
+    background: none;
+    color: white;
+    border-bottom: 3px solid var(--eucaplyptus);
+}
+.header_btn:active{
+    color: var(--eucaplyptus);
+}
+.Main{
+    margin-top: 3.98rem;
+}
+.main_data_information {
+    width: 39.6875rem;
+    font-family: 'Fraunces', serif;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 5rem;
+}
+.main_data_information span{
+    border-bottom: 4px solid var(--eucaplyptus);
+}
+.main_learnmore_btn {
+    background-color: var(--eucaplyptus);
+    font-size: 1.25rem;
+    color: var(--purple);
+    font-family: 'Manrope', sans-serif;
+    /* padding: 1rem 1.97rem; */
+    width: 161px;
+    height: 61px;
+    border: none;
+    display: block;
+    margin: 2.31rem auto;
+}
+.main_learnmore_btn:active{
+    color: var(--eucaplyptus);
+    background: none;
+    border: 1px solid var(--eucaplyptus);
+}
+.main_phone_img{
+    width: 44.6875rem;
+    height: 26.6875rem;
+    display: block;
+    margin: 2.88rem auto 0 auto;
+}
+.section1 {
+    background-image: url('./assets/images/Rectangle\ two\ Copy.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 60rem;
+    position: relative;
+    top: -255px;
+    z-index: -1;
+}
+.web_site_small_info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 21.5rem;
+    gap: 1.62rem;
+}
+.info_number {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid var(--gray);
+}
+.info_title{
+    font-size: 2rem;
+    color: var(--purple);
+    font-family: 'Fraunces', serif;
+}
+.info_paragraf {
+    width: 22.125rem;
+    font-size: 1.125rem;
+    font-family: 'Manrope', sans-serif;
+    line-height: 2rem;
+    text-align: center;
+}
+.profile_information{
+    display: flex;
+    justify-content: center;
+    margin-top: -10.13rem;
+}
+.profile_img {
+    width: 28.14294rem;
+    height: 28.3125rem;
+    border-radius: 50%;
+}
+.prof_info_cont{
+    width: 45.625rem;
+    height: 25.8125rem;
+    background-color: var(--purple);
+    position: relative;
+    margin-top: 10.81rem;
+    left: -4.26294rem;
+}
+.prof_title {
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Fraunces', serif;
+    line-height: 4rem;
+}
+.prof_paragraf{
+    color: white;
+    width: 37.625rem;
+    font-size: 1.125rem;
+    font-family: 'Manrope', sans-serif;
+    line-height: 2rem;
+}
+.prof_button {
+    border: none;
+    background-color: var(--eucaplyptus);
+    color: var(--purple);
+    font-size: 1.125rem;
+    font-family: 'Manrope', sans-serif;
+    line-height: 2rem;
+    letter-spacing: -0.01125rem;
+    padding: 0.81rem 1.53rem;
+}
+.prof_button:active {
+    color: var(--eucaplyptus);
+    background: none;
+    border: 1px solid var(--eucaplyptus);
+}
+.prof_info_cont {
+    padding-left: 4rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 7.61rem;
+    padding-bottom: 6.88rem;
+}
+.social_media{
+    width: 7.25rem;
+    height: 6.389rem;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.3rem;
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 375px) {
+    body{
+        width: none;
+    }
+    .header {
+        height: 30.10669rem;
+    }
+    nav{
+        display: flex;
+        padding: 57px 0;
+        justify-content: space-around;
+    }
+    .section1 {
+        height: 90.91925rem;
+        top: -390px;
+    }
+    .web_site_small_info{
+        display: block;
+        margin-top: 6rem;
+    }
+    .info_paragraf {
+        width: 21.4375rem;
+        font-size: 1rem;
+        line-height: 1.75rem; 
+        text-align: center;
+        margin: auto;
+    }
+    .main_data_information {
+        width: 380px;
+        font-size: 50px;
+        line-height: 60px;
+        margin-top: -70px;
+        font-weight: 600;
+        font-style: normal;
+        font-family: 'Fraunces', serif;
+    }
+    .main_learnmore_btn {
+        width: 133px;
+        height: 55px;
+        font-size: 16px;
+        letter-spacing: -0.16px;
+        text-align: center;
+    }
+    .info2{
+        margin-top: 2.5rem;
+    }
+    .info3{
+        margin-top: 5rem;
+    }
+    .main_phone_img{
+        width: 18.64406rem;
+        height: 11.13494rem;
+        margin: 3.44rem auto 0 auto;
+    }
+    .section2{
+        display: flex;
+        justify-content: center;
+    }
+    .profile_information{
+        width: 375px;
+        height: auto;
+    }
+    .prof_info_cont{
+        width: 343px;
+        height: 375px;
+        padding: 2rem 1.97rem;
+        position: relative;
+        margin-left: -125px;
+    }
+
+    .profile_img {
+        width: 16.5625rem;
+        height: 16.6875rem;
+        position: relative;
+        left: 110px;
+        bottom: 50px;
+    }
+    .prof_title {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .prof_paragraf {
+        text-align: center;
+        width: 17.5625rem;
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+    .prof_button {
+        width: 10.75rem;
+        height: 3.4375rem;
+        font-size: 1rem;
+        line-height: 2rem;
+        margin-left: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 1100px) and (min-width: 768px) {
+    body{
+        width: none;
+    }
+    .header {
+        background-color: none;
+        height: 33.76475rem;
+    }
+    .header_btn{
+        font-size: 1rem;
+    }
+    .main_data_information {
+        width: 35.8125rem;
+        font-size: 3.75rem;
+        line-height: 3.75rem;
+    }
+    .main_learnmore_btn {
+        font-size: 1rem;
+    }
+    .main_phone_img{
+        width: 29.94706rem;
+        height: 17.91269rem;
+        margin: 3.44rem auto 0 auto;
+    }
+    .web_site_small_info{
+        display: block;
+        margin-top: -4rem;
+    }
+    .info{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section1_information {
+        padding-left: 2rem;
+    }
+    .info_title {
+        text-align: left;
+    }
+    .info_paragraf {
+        width: 30.8125rem;
+        text-align: left;
+        font-size: 1rem;
+        margin-top: -2rem;
+        line-height: 1.75rem; 
+    }
+    .prof_info_cont{
+        width: 32.125rem;
+        height: 23.4375rem;
+        background-color: var(--purple);
+        position: relative;
+        margin-top: 9rem;
+        left: -6.2rem;
+    }
+
+    .profile_img {
+        width: 16.5625rem;
+        height: 16.6875rem;
+        border-radius: 50%;
+    }
+    .prof_title {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .prof_paragraf{
+        width: 25.125rem;
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+}
+
+
